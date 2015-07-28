@@ -9,12 +9,16 @@
 		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
 
 		<!-- Optional Bootstrap theme -->
-		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" rel="stylesheet"/>
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+			  rel="stylesheet"/>
 
-		<!-- ////////////////////////////////////////////////
-		//// LINK TO YOUR CUSTOM CSS FILES HERE
-		//// <link type="text/css" href="css/style.css" rel="stylesheet"/>
-		///////////////////////////////////////////////////// -->
+		<!-- Google WebFonts -->
+		<link
+			href='//fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,400italic,500,500italic,700,700italic'
+			rel='stylesheet' type='text/css'>
+
+		<!-- Custom CSS -->
+		<link type="text/css" href="css/style.css" rel="stylesheet"/>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,17 +29,51 @@
 
 		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
-		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.1/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.12.1/additional-methods.min.js"></script>
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<title>Bootstrap 101 Template (DDC Version!)</title>
+		<title>Class Quote of the Day</title>
 	</head>
-	<body>
-		<div class="container">
-			<h1>Hello, world! I'm a Bootstrap page! :D</h1>
+	<body class="sfooter">
+		<div class="sfooter-content">
+			<header>
+				<div class="container">
+					<div class="logo">
+						Quote of the Day
+					</div>
+				</div>
+			</header>
+			<div class="container">
+				<div class="row">
+					<h1>
+						"Quote of the day here"
+						<div>
+							-Attribution
+						</div>
+					</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<p>
+							Past quotes here!
+						</p>
+					</div>
+					<div class="col-md-6">
+						<p>
+							Past quotes here!
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
+		<footer>
+			&copy; Created by Skyler Rexroad
+		</footer>
 	</body>
 </html>
