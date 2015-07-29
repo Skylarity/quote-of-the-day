@@ -23,6 +23,9 @@
         <!-- Custom CSS -->
         <link type="text/css" href="css/style.css" rel="stylesheet"/>
 
+        <!-- Favicon -->
+        <link type="image/ico" href="/images/quote.ico" rel="shortcut icon"/>
+
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>

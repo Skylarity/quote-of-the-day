@@ -23,6 +23,9 @@
 		<!-- Custom CSS -->
 		<link type="text/css" href="css/style.css" rel="stylesheet"/>
 
+		<!-- Favicon -->
+		<link type="image/ico" href="/images/quote.ico" rel="shortcut icon"/>
+
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -67,8 +70,8 @@
 				<div class="row rounded">
 					<!--begin main content panel-->
 					<main class="content-main col-xs-12 col-md-12">
-						<form class="form-horizontal well" id="sshKeyLoginForm" method="post"
-							  action="/lib/php/ad-authenticate.php">
+						<form class="form-horizontal well" id="loginForm" method="post"
+							  action="/php/ad-authenticate.php">
 							<h2>Sign In</h2>
 							<section class="padding-lr form-group">
 								<label for="username">Username</label>
