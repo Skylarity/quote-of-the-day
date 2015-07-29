@@ -45,34 +45,56 @@
     </head>
     <body class="sfooter">
         <div class="sfooter-content">
-            <div class="white-transparent">
-                <header>
-                    <div class="container">
-                        <div class="logo">
-                            <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i> Quote of the Day
-                        </div>
-                    </div>
-                </header>
+            <header>
                 <div class="container">
-                    <div class="row">
-                        <h1>
-                            "Quote of the day here"
-                            <div class="attribution">
-                                -Attribution
-                            </div>
-                        </h1>
+                    <div class="logo">
+                        <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i> Quote of the Day
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>
-                                Past quotes here!
-                            </p>
+                </div>
+            </header>
+            <div class="container">
+                <div class="row">
+                    <h1>
+                        "Quote of the day here."
+                        <div class="attribution">
+                            -Attribution
                         </div>
-                        <div class="col-md-6">
-                            <p>
-                                Past quotes here!
-                            </p>
-                        </div>
+                    </h1>
+                </div>
+                <div class="row color-cover rounded">
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
+                    </div>
+                </div>
+                <div class="row color-cover rounded">
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
+                    </div>
+                </div>
+                <div class="row color-cover rounded">
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Past quotes here!
+                        </p>
                     </div>
                 </div>
             </div>

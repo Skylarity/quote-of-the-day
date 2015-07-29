@@ -4,6 +4,7 @@
 }
 
 header {
+	padding: 10px 0;
 	background: #FFFFFF;
 }
 
@@ -24,9 +25,14 @@ p {
 	font-weight: 700;
 }
 
-.white-transparent {
-	background: rgba(255, 255, 255, 0.5);
-	height: 100vh;
+.rounded {
+	border-radius: 2px;
+}
+
+.color-cover {
+	margin: 0 0 42px 0;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.8);
 }
 
 .attribution {
