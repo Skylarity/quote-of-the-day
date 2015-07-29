@@ -49,6 +49,11 @@
                 <div class="container">
                     <div class="logo">
                         <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i> Quote of the Day
+
+                        <ul class="nav nav-pills pull-right">
+                            <li role="presentation"><a href="#">Home</a></li>
+                            <li role="presentation"><a href="documentation/epic.php">Documentation</a></li>
+                        </ul>
                     </div>
                 </div>
             </header>

@@ -21,6 +21,15 @@ p {
 	font-weight: 500;
 }
 
+.nav {
+	font-size: 0.5em;
+	font-weight: 400;
+}
+
+.nav li a {
+	color: #000000;
+}
+
 .logo {
 	font-size: 2em;
 	font-weight: 700;

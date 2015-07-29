@@ -51,6 +51,11 @@
                         <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i>
                         Quote of the Day:
                         <span class="header-thin">Documentation</span>
+
+                        <ul class="nav nav-pills pull-right">
+                            <li role="presentation"><a href="../index.php">Home</a></li>
+                            <li role="presentation"><a href="#">Documentation</a></li>
+                        </ul>
                     </div>
                 </div>
             </header>
@@ -69,10 +74,10 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
+                        <div class="p color-cover rounded">
                             The goal of this project is to provide a platform in which a "quote of the day" can be
                             uploaded and shared with the class.
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -86,43 +91,43 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
-                            <span class="persona-attribute">Dyllin MickDambles</span>
+                        <div class="p color-cover rounded">
+                            <span class="epic-attribute">Dyllin MickDambles</span>
                             <br/>
-                            <span class="persona-attribute">Age:</span> "Younger Than Charles, Apparently"
+                            <span class="epic-attribute">Age:</span> "Younger Than Charles, Apparently"
                             <br/>
-                            <span class="persona-attribute">Occupation:</span> Instructor at the Deep Dive Coding
+                            <span class="epic-attribute">Occupation:</span> Instructor at the Deep Dive Coding
                             Bootcamp
                             <br/>
-                            <span class="persona-attribute">Tech Level:</span> Dyllin is very comfortable will all sorts
+                            <span class="epic-attribute">Tech Level:</span> Dyllin is very comfortable will all sorts
                             of technology, except Windows. He is not comfortable with Windows at all.
                             <br/>
-                            <span class="persona-attribute">Needs and Frustrations:</span> Dyllin <em>needs</em> to
+                            <span class="epic-attribute">Needs and Frustrations:</span> Dyllin <em>needs</em> to
                             share the funny things (or rather, funni<em>est</em> thing) that he and other people say
                             each day.
                             <br/>
-                            <span class="persona-attribute">Goal:</span> Dyllin wants to be able to post these quotes to
+                            <span class="epic-attribute">Goal:</span> Dyllin wants to be able to post these quotes to
                             a web app that will display them for the whole class.
                             <br/>
                             <br/>
-                            <span class="persona-attribute">Skillet Rexramb</span>
+                            <span class="epic-attribute">Skillet Rexramb</span>
                             <br/>
-                            <span class="persona-attribute">Age:</span> Not pub age
+                            <span class="epic-attribute">Age:</span> Not pub age
                             <br/>
-                            <span class="persona-attribute">Occupation:</span> Student/Regional Overlord at the Deep
+                            <span class="epic-attribute">Occupation:</span> Student/Regional Overlord at the Deep
                             Dive Coding
                             Bootcamp
                             <br/>
-                            <span class="persona-attribute">Tech Level:</span> Skillet can use all of the newfangled
+                            <span class="epic-attribute">Tech Level:</span> Skillet can use all of the newfangled
                             gadgets. He loves to learn new things about technology.
                             <br/>
-                            <span class="persona-attribute">Needs and Frustrations:</span> Skillet says
+                            <span class="epic-attribute">Needs and Frustrations:</span> Skillet says
                             <em>hilarious</em> things <em>every day</em>, and wants to force these things upon other
                             people.
                             <br/>
-                            <span class="persona-attribute">Goal:</span> Skillet wants to win the approval of Dyllin and
+                            <span class="epic-attribute">Goal:</span> Skillet wants to win the approval of Dyllin and
                             have his quotes posted to the QotD page to be shared with the rest of humanity.
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -136,9 +141,21 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
-                            Use Cases
-                        </p>
+                        <div class="p color-cover rounded">
+                            <span class="epic-attribute">Posting a quote:</span>
+                            <ol>
+                                <li>
+                                    Log in to @DeepDiveQuotes
+                                </li>
+                                <li>
+                                    Post a new tweet with the quote as the contents. (Formatted: <code>"Quote."
+                                        -Name</code> )
+                                </li>
+                                <li>
+                                    The QotD page will do the rest and post the quote to the front page.
+                                </li>
+                            </ol>
+                        </div>
                     </div>
                 </div>
 
@@ -152,9 +169,10 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
-                            Conceptual Schema
-                        </p>
+                        <div class="p color-cover rounded">
+                            There will be a tweet with a tweet ID. This tweet ID will reference a tweet posted to
+                            Twitter.
+                        </div>
                     </div>
                 </div>
 
@@ -168,9 +186,9 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
+                        <div class="p color-cover rounded">
                             Entity Relationship Diagram
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -184,9 +202,9 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
+                        <div class="p color-cover rounded">
                             System Summary
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -200,9 +218,9 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
+                        <div class="p color-cover rounded">
                             Development Roadmap
-                        </p>
+                        </div>
                     </div>
                 </div>
 
@@ -216,9 +234,9 @@
                         </h2>
                     </div>
                     <div class="col-md-8">
-                        <p class="color-cover rounded">
+                        <div class="p color-cover rounded">
                             User Stories
-                        </p>
+                        </div>
                     </div>
                 </div>
             </div>
