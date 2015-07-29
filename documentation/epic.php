@@ -50,7 +50,7 @@
                     <div class="logo">
                         <i class="fa fa-quote-left"></i> <i class="fa fa-quote-right"></i>
                         Quote of the Day:
-                        Documentation
+                        <span class="header-thin">Documentation</span>
                     </div>
                 </div>
             </header>
@@ -59,13 +59,165 @@
                     <h1>Epic</h1>
                 </div>
 
+                <!-- System Goals -->
                 <div class="row">
-                    <div class="col-md-2 color-cover rounded"">
-                        <h2>System Goals</h2>
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-check-square-o icon"></i>
+
+                            <div>System Goals</div>
+                        </h2>
                     </div>
-                    <div class="col-md-10 color-cover rounded"">
-                        <p>
-                            Blah blah.
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            The goal of this project is to provide a platform in which a "quote of the day" can be
+                            uploaded and shared with the class.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Personas -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-male icon"></i>
+
+                            <div>Personas</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            <span class="persona-attribute">Dyllin MickDambles</span>
+                            <br/>
+                            <span class="persona-attribute">Age:</span> "Younger Than Charles, Apparently"
+                            <br/>
+                            <span class="persona-attribute">Occupation:</span> Instructor at the Deep Dive Coding
+                            Bootcamp
+                            <br/>
+                            <span class="persona-attribute">Tech Level:</span> Dyllin is very comfortable will all sorts
+                            of technology, except Windows. He is not comfortable with Windows at all.
+                            <br/>
+                            <span class="persona-attribute">Needs and Frustrations:</span> Dyllin <em>needs</em> to
+                            share the funny things (or rather, funni<em>est</em> thing) that he and other people say
+                            each day.
+                            <br/>
+                            <span class="persona-attribute">Goal:</span> Dyllin wants to be able to post these quotes to
+                            a web app that will display them for the whole class.
+                            <br/>
+                            <br/>
+                            <span class="persona-attribute">Skillet Rexramb</span>
+                            <br/>
+                            <span class="persona-attribute">Age:</span> Not pub age
+                            <br/>
+                            <span class="persona-attribute">Occupation:</span> Student/Regional Overlord at the Deep
+                            Dive Coding
+                            Bootcamp
+                            <br/>
+                            <span class="persona-attribute">Tech Level:</span> Skillet can use all of the newfangled
+                            gadgets. He loves to learn new things about technology.
+                            <br/>
+                            <span class="persona-attribute">Needs and Frustrations:</span> Skillet says
+                            <em>hilarious</em> things <em>every day</em>, and wants to force these things upon other
+                            people.
+                            <br/>
+                            <span class="persona-attribute">Goal:</span> Skillet wants to win the approval of Dyllin and
+                            have his quotes posted to the QotD page to be shared with the rest of humanity.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Use Cases -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-suitcase icon"></i>
+
+                            <div>Use Cases</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            Use Cases
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Conceptual Schema -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-cog icon"></i>
+
+                            <div>Conceptual Schema</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            Conceptual Schema
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Entity Relationship Diagram -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-sitemap icon"></i>
+
+                            <div>Entity Relationship Diagram</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            Entity Relationship Diagram
+                        </p>
+                    </div>
+                </div>
+
+                <!-- System Summary -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-terminal icon"></i>
+
+                            <div>System Summary</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            System Summary
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Development Roadmap -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-road icon"></i>
+
+                            <div>Development Roadmap</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            Development Roadmap
+                        </p>
+                    </div>
+                </div>
+
+                <!-- User Stories -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2 class="color-cover rounded flex">
+                            <i class="fa fa-users icon"></i>
+
+                            <div>User Stories</div>
+                        </h2>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="color-cover rounded">
+                            User Stories
                         </p>
                     </div>
                 </div>

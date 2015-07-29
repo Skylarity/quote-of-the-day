@@ -12,13 +12,31 @@ h1 {
 	padding: 50px 0;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 4em;
+	font-size: 5em;
 	font-weight: 300;
 }
 
-p {
-	font-size: 1.5em;
+h2 {
+	font-weight: 300;
+}
+
+p, p span {
+	font-size: 1.2em;
 	font-weight: 500;
+}
+
+.header-thin {
+	font-weight: 400;
+}
+
+.persona-attribute {
+	font-weight: 600;
+}
+
+.icon {
+	margin: 0 10px 0 0;
+	width: 15%;
+	text-align: center;
 }
 
 .logo {
@@ -34,6 +52,10 @@ p {
 	margin: 0 0 42px 0;
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.8);
+}
+
+.flex {
+	display: flex;
 }
 
 /********************************************
