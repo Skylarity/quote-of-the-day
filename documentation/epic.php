@@ -96,18 +96,18 @@
                             <br/>
                             <span class="epic-attribute">Age:</span> "Younger Than Charles, Apparently"
                             <br/>
-                            <span class="epic-attribute">Occupation:</span> Instructor at the Deep Dive Coding
+                            <span class="epic-attribute">Occupation:</span> Captain of the Deep Dive Coding
                             Bootcamp
                             <br/>
-                            <span class="epic-attribute">Tech Level:</span> Dyllin is very comfortable will all sorts
+                            <span class="epic-attribute">Tech:</span> Dyllin is very comfortable will all sorts
                             of technology, except Windows. He is not comfortable with Windows at all.
                             <br/>
-                            <span class="epic-attribute">Needs and Frustrations:</span> Dyllin <em>needs</em> to
+                            <span class="epic-attribute">Needs:</span> Dyllin <em>needs</em> to
                             share the funny things (or rather, funni<em>est</em> thing) that he and other people say
                             each day.
                             <br/>
                             <span class="epic-attribute">Goal:</span> Dyllin wants to be able to post these quotes to
-                            a web app that will display them for the whole class.
+                            a web page that will display them for the whole class.
                             <br/>
                             <br/>
                             <span class="epic-attribute">Skillet Rexramb</span>
@@ -118,10 +118,10 @@
                             Dive Coding
                             Bootcamp
                             <br/>
-                            <span class="epic-attribute">Tech Level:</span> Skillet can use all of the newfangled
+                            <span class="epic-attribute">Tech:</span> Skillet can use all of the newfangled
                             gadgets. He loves to learn new things about technology.
                             <br/>
-                            <span class="epic-attribute">Needs and Frustrations:</span> Skillet says
+                            <span class="epic-attribute">Needs:</span> Skillet says
                             <em>hilarious</em> things <em>every day</em>, and wants to force these things upon other
                             people.
                             <br/>
@@ -170,8 +170,11 @@
                     </div>
                     <div class="col-md-8">
                         <div class="p color-cover rounded">
-                            There will be a tweet with a tweet ID. This tweet ID will reference a tweet posted to
-                            Twitter.
+                            <p>
+                                There will be a tweet table with tweet IDs. These tweet IDs will reference tweets posted
+                                to
+                                Twitter under the handle @DeepDiveQuotes.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -187,7 +190,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="p color-cover rounded">
-                            Entity Relationship Diagram
+                            <code>// TODO: Entity Relationship Diagram</code>
                         </div>
                     </div>
                 </div>
@@ -203,7 +206,20 @@
                     </div>
                     <div class="col-md-8">
                         <div class="p color-cover rounded">
-                            System Summary
+                            <p>
+                                The Quote of the Day page will be a page that displays the Quote of the Day for all to
+                                see.
+                            </p>
+
+                            <p>
+                                It will pull from a special Twitter account (@DeepDiveQuotes) on a regular basis in
+                                order to stay up to date with the latest quotes.
+                            </p>
+
+                            <p>
+                                The Quote of the Day page will have a simple user experience on both sides of the
+                                coin, viewing and uploading.
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -219,7 +235,30 @@
                     </div>
                     <div class="col-md-8">
                         <div class="p color-cover rounded">
-                            Development Roadmap
+                            <span class="epic-attribute">Frontend:</span>
+                            <ul>
+                                <li>
+                                    Minimalist single-page design
+                                </li>
+                                <li>
+                                    Quote featured in the main section of the page
+                                </li>
+                                <li>
+                                    List of past quotes
+                                </li>
+                            </ul>
+                            <span class="epic-attribute">Backend:</span>
+                            <ul>
+                                <li>
+                                    Table of tweet IDs
+                                </li>
+                                <li>
+                                    Functionality to pull from @DeepDiveQuotes
+                                </li>
+                                <li>
+                                    Table of past quotes
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -235,7 +274,15 @@
                     </div>
                     <div class="col-md-8">
                         <div class="p color-cover rounded">
-                            User Stories
+                            <ul>
+                                <li>
+                                    I am a student who said something hilarious, and my ego commands me to push it in
+                                    the faces of my classmates.
+                                </li>
+                                <li>
+                                    I am an instructor, and I want to share the funny/clever things my students say.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
