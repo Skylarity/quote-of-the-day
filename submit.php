@@ -44,6 +44,10 @@
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<!-- loop over $ADD_SCRIPT array to output additional <script> tags, if applicable. -->
+		<script src="sshkey-editor.js" type="text/javascript"></script>
+
 		<title>Class Quote of the Day</title>
 	</head>
 	<body class="sfooter">
@@ -71,7 +75,7 @@
 					<!--begin main content panel-->
 					<main class="content-main col-xs-12 col-md-12">
 						<form class="form-horizontal well" id="loginForm" method="post"
-							  action="/php/ad-authenticate.php">
+							  action="/lib/php/ad-authenticate.php">
 							<h2>Sign In</h2>
 							<section class="padding-lr form-group">
 								<label for="username">Username</label>
