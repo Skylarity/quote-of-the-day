@@ -259,6 +259,15 @@
                                     Table of past quotes
                                 </li>
                             </ul>
+                            <span class="epic-attribute">Future:</span>
+                            <ul>
+                                <li>
+                                    Table of students, with upvote/downvote stats
+                                </li>
+                                <li>
+                                    Ability for instructors (and only instructors) to upvote and downvote students
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
