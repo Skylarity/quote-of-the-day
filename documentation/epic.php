@@ -57,7 +57,7 @@
 
 						<ul class="nav nav-pills pull-right">
 							<li role="presentation"><a href="../index.php">Home</a></li>
-							<li role="presentation"><a href="../submit.php">Submit</a></li>
+							<li role="presentation"><a href="../submit.php">Submit/Vote</a></li>
 							<li role="presentation"><a href="#">Documentation</a></li>
 						</ul>
 					</div>
@@ -149,14 +149,25 @@
 							<span class="epic-attribute">Posting a quote:</span>
 							<ol>
 								<li>
-									Log in to @DeepDiveQuotes
+									Sign in to the QotD site.
 								</li>
 								<li>
-									Post a new tweet with the quote as the contents. (Formatted: <code>"Quote."
-										-Name</code> )
+									Fill out the "Quote" and "Attribution" fields.
 								</li>
 								<li>
 									The QotD page will do the rest and post the quote to the front page.
+								</li>
+							</ol>
+							<span class="epic-attribute">Upvoting/Downvoting:</span>
+							<ol>
+								<li>
+									Sign in to the QotD site.
+								</li>
+								<li>
+									Fill out the students name and number of upvotes (can be a negative number).
+								</li>
+								<li>
+									The QotD page will do the rest and add to the person's score accordingly.
 								</li>
 							</ol>
 						</div>
@@ -175,9 +186,7 @@
 					<div class="col-md-8">
 						<div class="p color-cover rounded">
 							<p>
-								There will be a tweet table with tweet IDs. These tweet IDs will reference tweets posted
-								to
-								Twitter under the handle @DeepDiveQuotes.
+								There will be a student table. Each student will have an ID and a score.
 							</p>
 						</div>
 					</div>
@@ -254,17 +263,8 @@
 							<span class="epic-attribute">Backend:</span>
 							<ul>
 								<li>
-									Table of tweet IDs
-								</li>
-								<li>
 									Functionality to pull from @DeepDiveQuotes
 								</li>
-								<li>
-									Table of past quotes
-								</li>
-							</ul>
-							<span class="epic-attribute">Future:</span>
-							<ul>
 								<li>
 									Table of students, with upvote/downvote stats
 								</li>
