@@ -16,6 +16,10 @@ h1 {
 	font-weight: 100;
 }
 
+.h1-alt {
+	padding: 100px 0 100px 0;
+}
+
 p {
 	font-size: 1.5em;
 	font-weight: 500;
@@ -48,6 +52,11 @@ p {
 .attribution {
 	color: #FFFFFF;
 	font-size: 0.7em;
+}
+
+.padding-lr {
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 /********************************************

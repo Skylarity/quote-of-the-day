@@ -54,6 +54,7 @@
 
                         <ul class="nav nav-pills pull-right">
                             <li role="presentation"><a href="../index.php">Home</a></li>
+                            <li role="presentation"><a href="../submit.php">Submit</a></li>
                             <li role="presentation"><a href="#">Documentation</a></li>
                         </ul>
                     </div>
