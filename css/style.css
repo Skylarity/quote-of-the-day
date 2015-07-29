@@ -3,6 +3,10 @@
 	color: #ED2D00;
 }
 
+header {
+	background: #FFFFFF;
+}
+
 h1 {
 	padding: 200px 0 200px 0;
 	text-align: center;
@@ -63,6 +67,6 @@ body {
 .sfooter-content {
 	flex: 1 0 auto;
 
-	background: url(../images/bg.jpg) no-repeat center center fixed;
+	background: url(../images/bg-02.jpg) no-repeat center center fixed;
 	background-size: cover;
 }
