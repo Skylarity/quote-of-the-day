@@ -9,11 +9,11 @@ header {
 }
 
 h1 {
-	padding: 200px 0 200px 0;
-	text-align: center;
+	padding: 50px 0;
 	color: #FFFFFF;
-	font-size: 8em;
-	font-weight: 100;
+	text-align: center;
+	font-size: 4em;
+	font-weight: 300;
 }
 
 p {
@@ -34,11 +34,6 @@ p {
 	margin: 0 0 42px 0;
 	padding: 20px;
 	background: rgba(255, 255, 255, 0.8);
-}
-
-.attribution {
-	color: #FFFFFF;
-	font-size: 0.7em;
 }
 
 /********************************************
