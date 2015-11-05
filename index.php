@@ -2,9 +2,18 @@
 $CURRENT_DIR = __DIR__;
 require_once("php/lib/head-utils.php");
 ?>
-<div class="sfooter-content">
-	<h1>Quote of the Day</h1>
+<?php require_once($PREFIX . "php/lib/header.php") ?>
+
+<!-- BEGIN page content -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Test</h2>
+		</div>
+	</div>
 </div>
-<?php //require_once("php/lib/footer.php"); ?>
+<!-- END page content -->
+
+<?php require_once($PREFIX . "php/lib/footer.php"); ?>
 </body>
 </html>
