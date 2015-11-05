@@ -7,8 +7,11 @@ require_once("php/lib/head-utils.php");
 <!-- BEGIN page content -->
 <div class="container">
 	<div class="row">
-		<div class="col-md-12">
-			<h2>Test</h2>
+		<div class="col-md-4">
+			<?php require_once($PREFIX . "php/lib/sidebar.php") ?>
+		</div>
+		<div class="col-md-8">
+			<?php require_once($PREFIX . "php/lib/quote.php") ?>
 		</div>
 	</div>
 </div>

@@ -30,7 +30,6 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 
 		<!-- Custom CSS -->
 		<link type="text/css" href="<?php echo $PREFIX; ?>css/style.css" rel="stylesheet"/>
-		<link type="text/css" href="<?php echo $PREFIX; ?>css/sfooter.css" rel="stylesheet"/>
 
 		<!-- Font Awesome -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -62,4 +61,4 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 		<title>Quote of the Day</title>
 	</head>
-	<body>
+	<body class="bg-color text-color-light">

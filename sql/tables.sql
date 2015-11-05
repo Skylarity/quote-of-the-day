@@ -1,3 +1,9 @@
-DROP TABLE vote;
 DROP TABLE quote;
-DROP TABLE user;
+
+CREATE TABLE quote (
+	quoteId          INT UNSIGNED AUTO_INCREMENT NOT NULL,
+	quoteContent     VARCHAR(2048)               NOT NULL,
+	quoteAttribution VARCHAR(256)                NOT NULL,
+	quoteDate        DATETIME                    NOT NULL,
+	PRIMARY KEY (quoteId)
+);

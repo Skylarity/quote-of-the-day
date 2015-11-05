@@ -1,0 +1,59 @@
+/***************************************************
+ * GENERAL
+ ***************************************************/
+
+.text-color-light {
+	color: white;
+}
+
+.text-color-dark {
+	color: #222;
+}
+
+.bg-color {
+	background-color: #E82C0C;
+}
+
+.bg-color-lighter {
+	background-color: #FF4627;
+}
+
+.bg-color-darker {
+	background-color: #B52209;
+}
+
+.bg-color-secondary {
+	background-color: #009B58;
+}
+
+.bg-color-secondary-lighter {
+	background-color: #0CE888;
+}
+
+.bg-color-secondary-darker {
+	background-color: #004F2D;
+}
+
+.padding-top {
+	padding-top: 20px;
+}
+
+.padding {
+	padding: 20px;
+}
+
+/***************************************************
+ * SIDEBAR
+ ***************************************************/
+
+.sidebar {
+
+}
+
+/***************************************************
+ * QUOTE
+ ***************************************************/
+
+.quote {
+
+}
