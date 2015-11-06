@@ -2,6 +2,10 @@
  * GENERAL
  ***************************************************/
 
+.large-text {
+	font-size: 2em;
+}
+
 .text-color-light {
 	color: white;
 }
@@ -9,6 +13,19 @@
 .text-color-dark {
 	color: #222;
 }
+
+.fill-height {
+	display: flex;
+	flex-direction: column;
+}
+
+/*.fill-height > li {*/
+/*flex: 1;*/
+
+/*display: flex;*/
+/*justify-content: center;*/
+/*flex-direction: column;*/
+/*}*/
 
 .bg-color {
 	background-color: #E82C0C;
@@ -40,6 +57,11 @@
 
 .padding {
 	padding: 20px;
+}
+
+.rounded-bottom {
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
 
 /***************************************************

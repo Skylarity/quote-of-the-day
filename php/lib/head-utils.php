@@ -59,6 +59,6 @@ if(session_status() !== PHP_SESSION_ACTIVE) {
 
 		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
 		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<title>Quote of the Day</title>
+		<title><?php echo $TITLE; ?></title>
 	</head>
 	<body class="bg-color text-color-light">

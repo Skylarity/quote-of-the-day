@@ -107,4 +107,28 @@ class Quote {
 		$this->quoteDate = Filter::filterDate($quoteDate, "Quote date", true);
 	}
 
+	public function insert(PDO &$pdo) {
+		// TODO
+	}
+
+	public function update(PDO &$pdo) {
+		// TODO
+	}
+
+	public function delete(PDO &$pdo) {
+		// TODO
+	}
+
+	public static function getQuoteByQuoteId(PDO &$pdo, $quoteId) {
+		// TODO
+	}
+
+	public static function getQuoteByQuoteDate(PDO &$pdo, $quoteDate) {
+		// TODO
+	}
+
+	public static function getAllQuotes(PDO &$pdo) {
+		// TODO
+	}
+
 }
